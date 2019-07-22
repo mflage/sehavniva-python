@@ -1,16 +1,24 @@
 from setuptools import setup
 
 setup(
-        name='sehavniva',
-        version='1.0.1',
-        packages=['sehavniva'],
-        url='https://github.com/mflage/sehavniva-python',
-        keywords = ['kartverket', 'sehavniva', 'iot', 'tide', 'sensor', 'smarthome', 'automation'],
-        license='Apache 2.0',
-        author='Marius Flage',
-        author_email='mflage@gmail.com',
-        description='Unofficial Python library for the SeHavNiva API',
-        install_requires = ['requests', 'xmltodict'],
+    name='sehavniva',
+    version='0.1',
+    packages=['sehavniva-python'],
+    url='https://github.com/mflage/sehavniva-python',
+    keywords = ['kartverket', 'sehavniva', 'iot', 'tide', 'sensor', 'smarthome', 'automation'],
+    license='MIT',
+    author='Marius Flage',
+    author_email='marius@flage.org',
+    description='Unofficial Python library for the Norwegian Mapping Authority\'s SeHavNiva API',
+    install_requires=['requests', 'xmltodict'],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
+        ],
     )
 
 
