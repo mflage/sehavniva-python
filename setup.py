@@ -5,7 +5,7 @@ setup(
     version = '0.1',
     packages = ['sehavniva-python'],
     url = 'https://github.com/mflage/sehavniva-python',
-    download_url = "https://github.com/mflage/sehavniva-python/archive/v_01.tar.gz"
+    download_url = "https://github.com/mflage/sehavniva-python/archive/v0.1-alpha.tar.gz"
     keywords = ['kartverket', 'sehavniva', 'iot', 'tide', 'sensor', 'smarthome', 'automation'],
     license = 'MIT',
     author = 'Marius Flage',
